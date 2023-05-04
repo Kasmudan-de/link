@@ -1,6 +1,14 @@
 /* Style Settings */
 
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@font-face {
+    font-family: 'Karla';
+    src: url('src/fonts/Karla-Light.woff2') format('woff2'),
+        url('src/fonts/Karla-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
 	--font: 'Karla', 'Karla', sans-serif;
 }
@@ -13,7 +21,6 @@ html {
 	background: -webkit-linear-gradient(63deg, rgba(48,197,210,1) 0%, rgba(71,16,105,1) 100%);
 	background: linear-gradient(63deg, rgba(48,197,210,1) 0%, rgba(71,16,105,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#30c5d2",endColorstr="#471069",GradientType=1);
-	margin-bottom: 100px;
 }
 
 #userPhoto {
